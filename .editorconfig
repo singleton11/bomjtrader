@@ -5,5 +5,5 @@ indent_style = space
 indent_size = 2
 insert_final_newline = true
 
-[*.{yml,yaml}]
+[*.{yml,yaml, toml}]
 insert_final_newline = true

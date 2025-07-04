@@ -2,3 +2,14 @@ product: jvm/app
 
 settings:
   springBoot: enabled
+  jvm:
+    mainClass: com.bomjtrader.server.BomjTraderApplicationKt
+
+dependencies:
+  - $spring.boot.starter.webflux
+
+  - $libs.kotlinx.coroutines.core
+  - $libs.kotlinx.coroutines.reactor
+
+  - $libs.nimbus.jose.jwt
+  - $libs.bcpkix.jdk18on

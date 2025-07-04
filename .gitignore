@@ -10,3 +10,6 @@ Thumbs.db
 
 ### Amper ###
 build
+
+### creds ###
+application-local.yaml

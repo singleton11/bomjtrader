@@ -1,0 +1,12 @@
+[
+  {
+    "name": "coinbase.key.name",
+    "type": "java.lang.String",
+    "description": "Coinbase API key name"
+  },
+  {
+    "name": "coinbase.key.value",
+    "type": "java.lang.String",
+    "description": "Coinbase API key value in PEM format (starts with -----BEGIN EC PRIVATE KEY-----)"
+  }
+]

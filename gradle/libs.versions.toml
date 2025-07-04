@@ -1,0 +1,9 @@
+[versions]
+coroutines = "1.10.2"
+
+[libraries]
+nimbus-jose-jwt = { module = "com.nimbusds:nimbus-jose-jwt", version = "10.3" }
+bcpkix-jdk18on = { module = "org.bouncycastle:bcpkix-jdk18on", version = "1.78" }
+
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version.ref = "coroutines" }

@@ -1,0 +1,4 @@
+coinbase:
+  key:
+    name: key
+    value: ${COINBASE_PRIVATE_KEY}
