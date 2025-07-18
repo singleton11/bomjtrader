@@ -1,9 +1,9 @@
 [versions]
 coroutines = "1.10.2"
+wiremock-spring-boot = "3.10.0"
 
 [libraries]
-nimbus-jose-jwt = { module = "com.nimbusds:nimbus-jose-jwt", version = "10.3" }
-bcpkix-jdk18on = { module = "org.bouncycastle:bcpkix-jdk18on", version = "1.78" }
-
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-reactor = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor", version.ref = "coroutines" }
+
+wiremock-spring-boot = { module = "org.wiremock.integrations:wiremock-spring-boot", version.ref = "wiremock-spring-boot" }

@@ -1,12 +1,17 @@
 [
   {
-    "name": "coinbase.key.name",
+    "name": "alpaca.key.id",
     "type": "java.lang.String",
-    "description": "Coinbase API key name"
+    "description": "Alpaca API key ID"
   },
   {
-    "name": "coinbase.key.value",
+    "name": "alpaca.key.secret",
     "type": "java.lang.String",
-    "description": "Coinbase API key value in PEM format (starts with -----BEGIN EC PRIVATE KEY-----)"
+    "description": "Alpaca API secret key"
+  },
+  {
+    "name": "alpaca.marketData.url",
+    "type": "java.lang.String",
+    "description": "Alpaca Market Data API base URL"
   }
 ]

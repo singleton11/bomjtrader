@@ -7,11 +7,15 @@ and patient in your alco trading journey.
 
 ## Getting Started
 
+As Alpaca API is used for getting access to market data, you need to create an account on [Alpaca](https://alpaca.markets/)
+and get your API key.
+
 To start working with Bomj Trader, you need to create server/resources/application-local.yaml with the following
 content:
 
 ```yaml
-coinbase:
+alpaca:
   key:
-    value: your-api-key
+    id: your-api-key-id
+    secret: your-api-key-secret
 ```

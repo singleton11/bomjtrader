@@ -1,4 +1,6 @@
-coinbase:
+alpaca:
+  marketData:
+    url: https://data.alpaca.markets/v2/
   key:
-    name: key
-    value: ${COINBASE_PRIVATE_KEY}
+    id: ${ALPACA_KEY_ID:id}
+    secret: ${ALPACA_KEY_SECRET:secret}

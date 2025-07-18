@@ -11,5 +11,5 @@ dependencies:
   - $libs.kotlinx.coroutines.core
   - $libs.kotlinx.coroutines.reactor
 
-  - $libs.nimbus.jose.jwt
-  - $libs.bcpkix.jdk18on
+test-dependencies:
+  - $libs.wiremock.spring.boot
