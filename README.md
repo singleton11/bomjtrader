@@ -19,3 +19,5 @@ alpaca:
     id: your-api-key-id
     secret: your-api-key-secret
 ```
+
+These credentials are sensitive and must never be checked into version control.

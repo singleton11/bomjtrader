@@ -2,16 +2,19 @@
   {
     "name": "alpaca.key.id",
     "type": "java.lang.String",
-    "description": "Alpaca API key ID"
+    "description": "Alpaca API key ID.",
+    "defaultValue": "alpaca"
   },
   {
     "name": "alpaca.key.secret",
     "type": "java.lang.String",
-    "description": "Alpaca API secret key"
+    "description": "Alpaca API secret key.",
+    "defaultValue": "secret"
   },
   {
     "name": "alpaca.marketData.url",
     "type": "java.lang.String",
-    "description": "Alpaca Market Data API base URL"
+    "description": "Alpaca Market Data API base URL.",
+    "defaultValue": "https://paper-api.alpaca.markets"
   }
 ]
