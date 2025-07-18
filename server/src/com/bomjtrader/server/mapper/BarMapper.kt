@@ -6,19 +6,6 @@ import org.springframework.stereotype.Component
 
 @Component
 class BarMapper {
-  fun mapBack(bar: Bar): BarDto = BarDto(
-    bar.close,
-    bar.high,
-    bar.low,
-    bar.number,
-    bar.open,
-    bar.time,
-    bar.volume,
-    bar.volumeWeighted,
-  )
-
-  fun mapBack(bars: List<Bar>): List<BarDto> = bars.map(::mapBack)
-
   fun map(barDto: BarDto): Bar = Bar(
     barDto.close,
     barDto.high,

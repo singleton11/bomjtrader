@@ -6,6 +6,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class BomjTraderApplication
 
-fun main(args: Array<String>) {
+fun main() {
   runApplication<BomjTraderApplication>()
 }
