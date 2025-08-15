@@ -4,20 +4,20 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import java.time.LocalDateTime
 
 data class BarDto(
-  @field:JsonProperty("c")
+  @get:JsonProperty("c")
   val close: Double,
-  @field:JsonProperty("h")
+  @get:JsonProperty("h")
   val high: Double,
-  @field:JsonProperty("l")
+  @get:JsonProperty("l")
   val low: Double,
-  @field:JsonProperty("n")
+  @get:JsonProperty("n")
   val number: Int,
-  @field:JsonProperty("o")
+  @get:JsonProperty("o")
   val open: Double,
-  @field:JsonProperty("t")
+  @get:JsonProperty("t")
   val time: LocalDateTime,
-  @field:JsonProperty("v")
+  @get:JsonProperty("v")
   val volume: Double,
-  @field:JsonProperty("vw")
+  @get:JsonProperty("vw")
   val volumeWeighted: Double
 )

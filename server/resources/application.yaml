@@ -1,6 +1,8 @@
 alpaca:
   marketData:
     url: https://data.alpaca.markets/v2/
+  trading:
+    url: https://paper-api.alpaca.markets/v2/
   key:
     id: ${ALPACA_KEY_ID:id}
     secret: ${ALPACA_KEY_SECRET:secret}

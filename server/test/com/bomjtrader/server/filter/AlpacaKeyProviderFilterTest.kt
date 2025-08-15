@@ -23,7 +23,7 @@ import org.wiremock.spring.EnableWireMock
 class AlpacaKeyProviderFilterTest {
 
   @Autowired
-  private lateinit var webClient: WebClient
+  private lateinit var marketDataWebClient: WebClient
 
   @Test
   fun `should add Alpaca API key headers to requests`() {
@@ -39,7 +39,7 @@ class AlpacaKeyProviderFilterTest {
     )
 
     // Make a request using the WebClient
-    webClient.get()
+    marketDataWebClient.get()
       .uri("/v2/stocks/AAPL/bars")
       .retrieve()
       .bodyToMono(String::class.java)
