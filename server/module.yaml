@@ -7,9 +7,23 @@ settings:
 
 dependencies:
   - $spring.boot.starter.webflux
+  - $spring.boot.starter.data.r2dbc
+
+  - $spring.boot.docker.compose: runtime-only
+
+    # todo: replace to built-in catalog versions
+  - $libs.r2dbc.postgresql: runtime-only
+  - $libs.postgresql: runtime-only
+
+  - $libs.flyway.core
+  - $libs.flyway.database.postgresql
+  # end todo
 
   - $libs.kotlinx.coroutines.core
   - $libs.kotlinx.coroutines.reactor
 
 test-dependencies:
   - $libs.wiremock.spring.boot
+  - $spring.boot.testcontainers
+  - $libs.testcontainers.postgresql
+  - $libs.testcontainers.r2dbc

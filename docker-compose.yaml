@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: bomj-trader-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=bomj_trader
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
